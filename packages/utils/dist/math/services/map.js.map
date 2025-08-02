@@ -1,1 +1,0 @@
-{"version":3,"file":"map.js","sourceRoot":"","sources":["../../../src/math/services/map.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,GAAG,CAAC,KAAa,EAAE,OAAe,EAAE,QAAgB,EAAE,KAAa,EAAE,MAAc;IAC/F,OAAO,CAAC,KAAK,GAAG,OAAO,CAAC,GAAG,CAAC,MAAM,GAAG,KAAK,CAAC,GAAG,CAAC,QAAQ,GAAG,OAAO,CAAC,GAAG,KAAK,CAAC;AAC/E,CAAC"}

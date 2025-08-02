@@ -1,5 +1,6 @@
 {
   "name": "ts-codex",
+  "license": "MIT",
   "main": "index.js",
   "private": true,
   "version": "1.0.0",

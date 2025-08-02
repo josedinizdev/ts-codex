@@ -10,10 +10,10 @@ Cada pacote é distribuído individualmente no NPM sob o escopo `@ts-codex`.
 
 | Pacote              | Descrição                                                                 |
 |---------------------|---------------------------------------------------------------------------|
-| [`@ts-codex/utils`](packages/utils)     | Funções utilitárias para manipulação de dados, datas, horários, etc.    |
-| [`@ts-codex/pdf`](packages/pdf)         | Criação e manipulação de arquivos PDF                                   |
-| [`@ts-codex/valid`](packages/valid)     | Funções para validar dados de todos os tipos                            |
-| [`@ts-codex/xml`](packages/xml)         | Leitura, parsing e transformação de arquivos XML                        |
+| [`@ts-codex/utils`](packages/utils)     | Funções utilitárias para manipulação de dados, datas, horários, etc.     |
+| [`@ts-codex/pdf`](packages/pdf)         | 📄 **Em construção**: Criação e manipulação de arquivos PDF               |
+| [`@ts-codex/math`](packages/math)       | Funções matemáticas e estatísticas de uso comum                         |
+| [`@ts-codex/xml`](packages/xml)         | 📦 **Em construção**: Leitura, parsing e transformação de arquivos XML    |
 | [`@ts-codex/integra`](packages/integra) | Integrações com APIs e estruturas externas de dados                     |
 
 ---
@@ -25,7 +25,7 @@ ts-codex/
 ├── packages/
 │   ├── utils/
 │   ├── pdf/
-│   ├── valid/
+│   ├── math/
 │   ├── xml/
 │   └── integra/
 ├── tsconfig.base.json

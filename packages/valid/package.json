@@ -1,5 +1,6 @@
 {
   "name": "@ts-codex/valid",
+  "license": "MIT",
   "version": "1.0.0",
   "private": false,
   "repository": "https://github.com/josedinizdev/ts-codex.git",
