@@ -1,5 +1,6 @@
 const ANATEL_DADOSABERTOS_BASE_URL = "https://www.anatel.gov.br/dadosabertos/"
 const BANCOCENTRAL_BASE_URL = "https://www.bcb.gov.br/";
+const API_BANCOCENTRAL_BASE_URL = "https://api.bcb.gov.br/";
 const VIACEP_BASE_URL = "https://viacep.com.br";
 const MINHARECEITA_BASE_URL = "https://minhareceita.org/";
 const RECEITASWS_BASE_URL = "https://www.receitaws.com.br/v1/cnpj/";
@@ -13,6 +14,7 @@ const IBGE_LOCALIDADE_BASE_URL = "https://servicodados.ibge.gov.br/api/v1/locali
 export {
   ANATEL_DADOSABERTOS_BASE_URL,
   BANCOCENTRAL_BASE_URL,
+  API_BANCOCENTRAL_BASE_URL,
   VIACEP_BASE_URL,
   MINHARECEITA_BASE_URL,
   RECEITASWS_BASE_URL,
