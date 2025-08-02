@@ -1,0 +1,1 @@
+export { dominio } from "./services/dominio";

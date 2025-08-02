@@ -1,0 +1,1 @@
+export { cnpj } from "./services/cnpj";

@@ -5,9 +5,13 @@
   "private": true,
   "version": "1.0.0",
   "repository": "https://github.com/josedinizdev/ts-codex.git",
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": [
+      "**/@ts-codex/**",
+      "**/axios"
+    ]
+  },
   "devDependencies": {
     "typescript": "^5.0.0"
   }

@@ -1,0 +1,1 @@
+export * as localidades from "./services/localidades.js";
