@@ -1,0 +1,11 @@
+{
+  "name": "@ts-codex/pdf",
+  "version": "1.0.0",
+  "private": false,
+  "repository": "https://github.com/josedinizdev/ts-codex.git",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  }
+}

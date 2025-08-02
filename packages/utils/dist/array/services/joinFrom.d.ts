@@ -1,0 +1,2 @@
+export declare function joinFrom<U, TKey, TResult, T = any>(arr: T[], otherList: U[], keySelector: (value: T) => TKey, otherKeySelector: (value: U) => TKey, resultSelector: (value1: T, value2: U) => TResult): TResult[];
+//# sourceMappingURL=joinFrom.d.ts.map

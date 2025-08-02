@@ -1,0 +1,11 @@
+export { abnt } from "./services/abnt.js";
+export { clamp } from "./services/clamp.js";
+export { euclideanModulo } from "./services/euclideanModulo.js";
+export { map } from "./services/map.js";
+export { randomFloat } from "./services/randomFloat.js";
+export { randomInt } from "./services/randomInt.js";
+export { sign } from "./services/sign.js";
+export { splitFractionDouble } from "./services/splitFractionDouble.js";
+export { sum } from "./services/sum.js";
+export { uuid } from "./services/uuid.js";
+//# sourceMappingURL=index.d.ts.map

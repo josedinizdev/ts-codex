@@ -1,0 +1,1 @@
+{"version":3,"file":"agregate.js","sourceRoot":"","sources":["../../../src/array/services/agregate.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,QAAQ,CAAa,GAAQ,EAAE,QAAyC,EAAE,YAAe;IACvG,IAAI,WAAW,GAAG,YAAY,CAAC;IAC/B,KAAK,MAAM,KAAK,IAAI,GAAG,EAAE,CAAC;QACxB,WAAW,GAAG,QAAQ,CAAC,WAAW,EAAE,KAAK,CAAC,CAAC;IAC7C,CAAC;IACD,OAAO,WAAW,CAAC;AACrB,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"safe.js","sourceRoot":"","sources":["../../../src/obj/services/safe.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,IAAI,CAAmB,OAAW;IAChD,OAAO,UAAU,IAAS;QACxB,IAAI,CAAC;YACH,OAAO,IAAI,EAAE,CAAC;QAChB,CAAC;QAAC,MAAM,CAAC;YACP,OAAO,OAAO,IAAI,SAAS,CAAC;QAC9B,CAAC;IACH,CAAC,CAAA;AACH,CAAC"}

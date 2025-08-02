@@ -1,0 +1,2 @@
+export declare function groupJoin<U, TKey, TResult, T = any>(arr: T[], otherList: U[], keySelector: (value: T) => TKey, otherKeySelector: (value: U) => TKey, resultSelector: (value: T, list: U[]) => TResult): TResult[];
+//# sourceMappingURL=groupJoin.d.ts.map

@@ -1,0 +1,11 @@
+{
+  "name": "@ts-codex/integra",
+  "main": "index.js",
+  "repository": "https://github.com/josedinizdev/ts-codex.git",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

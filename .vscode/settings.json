@@ -1,0 +1,33 @@
+{
+  "[bat]": {
+    "diffEditor.wordWrap": "inherit",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "editor.fontLigatures": false
+  },
+  "[plaintext]": {
+    "diffEditor.wordWrap": "inherit",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "editor.fontLigatures": false
+  },
+  "editor.tabSize": 2,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.js": "${capture}.js.map, ${capture}.*.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.jsx.map, ${capture}.*.jsx, ${capture}.d.tsx",
+    "*.ts": "${capture}.ts.map, ${capture}.*.ts, ${capture}.d.ts",
+    "*.tsx": "${capture}.tsx.map, ${capture}.*.tsx"
+  },
+  "files.autoSave": "afterDelay",
+  "git.confirmSync": false,
+  "git.autofetch": false,
+  "diffEditor.wordWrap": "off",
+  "explorer.compactFolders": false,
+}
