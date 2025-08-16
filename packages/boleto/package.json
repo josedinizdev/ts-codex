@@ -15,5 +15,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc -b"
+  },
+  "dependencies": {
+    "@ts-codex/utils": "^1.0.0"
   }
 }
