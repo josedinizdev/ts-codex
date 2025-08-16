@@ -9,7 +9,8 @@
     "packages": ["packages/*"],
     "nohoist": [
       "**/@ts-codex/**",
-      "**/axios"
+      "**/axios",
+      "**/firebase"
     ]
   },
   "devDependencies": {

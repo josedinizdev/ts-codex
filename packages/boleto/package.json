@@ -1,0 +1,19 @@
+{
+  "name": "@ts-codex/boleto",
+  "license": "MIT",
+  "version": "1.0.0",
+  "private": false,
+  "repository": "https://github.com/josedinizdev/ts-codex.git",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b"
+  }
+}
