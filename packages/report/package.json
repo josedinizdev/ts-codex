@@ -15,5 +15,15 @@
   "type": "module",
   "scripts": {
     "build": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "bwip-js": "^4.7.0",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4"
   }
 }
