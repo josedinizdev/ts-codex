@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "repository": "https://github.com/josedinizdev/ts-codex.git",
   "workspaces": {
-    "packages": ["packages/*"],
+    "packages": ["packages/*", "apps/*"],
     "nohoist": [
       "**/@ts-codex/**",
       "**/axios",

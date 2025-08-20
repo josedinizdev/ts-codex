@@ -17,6 +17,7 @@
     "build": "tsc -b"
   },
   "dependencies": {
-    "@ts-codex/utils": "^1.0.0"
+    "@ts-codex/utils": "^1.0.0",
+    "axios": "^1.11.0"
   }
 }
