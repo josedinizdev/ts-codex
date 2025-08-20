@@ -1,3 +1,4 @@
+import { math } from "@ts-codex/utils";
 import { BrCodeOptions } from "../../types/pix";
 import {FIELD} from "../constants/field";
 import { brCodeFieldValue } from "./brCodeFieldValue";
@@ -37,7 +38,7 @@ export function brcode(options: BrCodeOptions) {
   retorno += brCodeFieldValue(FIELD.ID_TRANSACTION_CURRENCY, "986", 3);
 
   if (valor != null)
-    retorno += brCodeFieldValue(FIELD.ID_TRANSACTION_AMOUNT, valor.toFixed(2), 13);
+    retorno += brCodeFieldValue(FIELD.ID_TRANSACTION_AMOUNT, math.abnt(valor, 2).toFixed(2), 13);
 
   retorno += brCodeFieldValue(FIELD.ID_COUNTRY_CODE, "BR", 2);
   retorno += brCodeFieldValue(FIELD.ID_MERCHANT_NAME, destinatario, 25);
