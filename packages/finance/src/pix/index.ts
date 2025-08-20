@@ -1,0 +1,1 @@
+export { brcode } from './lib/brcode'

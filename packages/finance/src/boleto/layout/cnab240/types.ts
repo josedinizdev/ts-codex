@@ -1,3 +1,4 @@
+import { RegMap } from "../../../types/boleto.js"
 import { arquivo, lotes } from "./index.js"
 
 export namespace Arquivo {

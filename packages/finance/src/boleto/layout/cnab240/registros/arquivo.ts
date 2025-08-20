@@ -1,3 +1,5 @@
+import { Layout } from "../../../../types/boleto";
+
 export const cabecalho = {
   cod_banco_compreensao: {
     id: '01.0',
@@ -167,7 +169,7 @@ export const cabecalho = {
     pos_fim: 240,
     default: undefined
   }
-} as const satisfies Base;
+} as const satisfies Layout;
 
 export const trailer = {
   codigo_banco_compensacao: {
@@ -226,4 +228,4 @@ export const trailer = {
     pos_fim: 240,
     default: ''
   }
-} as const satisfies Base;
+} as const satisfies Layout;
